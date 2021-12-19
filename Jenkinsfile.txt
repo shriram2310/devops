@@ -1,9 +1,9 @@
 pipeline {
  agent any
  stages {
-  stage('Cleaning') {
+  stage('Preparing') {
    steps {
-    echo 'cleaning the code'
+    echo 'preparing the code'
    }
   }
   stage('Building') {
