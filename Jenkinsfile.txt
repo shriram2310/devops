@@ -1,9 +1,9 @@
 pipeline {
  agent any
  stages {
-  stage('SCM') {
+  stage('Cleaning') {
    steps {
-    echo 'Got jenkinsfile from SCM'
+    echo 'cleaning the code'
    }
   }
   stage('Building') {
